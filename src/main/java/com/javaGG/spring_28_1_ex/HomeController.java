@@ -53,7 +53,7 @@ public class HomeController {
 	@RequestMapping("/list")
 	public String list(Model model) {
 		ArrayList<ContentDto> dtos = dao.listDao();
-		model.addAllAttributes(dtos);
+		model.addAttribute("list", dtos);
 		return "list";
 	}
 	

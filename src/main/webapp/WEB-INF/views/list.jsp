@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h3>게시글 목록</h3>	
-	<table width="500" cellpadding="0" cellspacing="0" border="1">
+	<table width="700" cellpadding="0" cellspacing="0" border="1">
 		<tr>
 			<td>번호</td>
 			<td>글쓴이</td>
